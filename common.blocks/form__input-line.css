@@ -1,0 +1,11 @@
+.form__input-line {
+	min-width: 100%;
+	min-height: 40px;
+	background: #F4F2FF;
+	border-radius: 6px;
+	border: none;
+}
+
+.form__input-line:focus {
+	background: #EEEEEE;
+}

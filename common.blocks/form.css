@@ -1,0 +1,8 @@
+.form {
+	min-width: 580px;
+	min-height: 620px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	padding: 28px 28px;
+}
