@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<main>
+
+		<article class="box">
+			<h2 class="box__title">Добавить товар</h2>
+
+			<form id="form-order" class="form" method="post" action="#">
+
+				<div class="form__element">
+					<label for="product" class="form__input-title">Наименование</label>
+					<input type="text" name="product" id="product" class="form__input-line" required>
+				</div>
+
+				<div class="form__element">
+					<label for="category" class="form__input-title">Категория</label>
+					<input type="text" name="category" id="category" class="form__input-line" required>
+				</div>
+
+				<div class="form__element">
+					<label for="measurement" class="form__input-title">Единицы измерения</label>
+					<input type="text" name="measurement" id="measurement" class="form__input-line" required>
+				</div>
+
+				<div class="form__element">
+					<label for="discont" class="form__input-title">Дисконт</label>
+					<div class="">
+						<input type="checkbox" name="is-discont" id="discont"
+							class="form__input-line form__input-line_discont-checkbox">
+						<input type="text" name="code-discont" id="discont" class="form__input-line form__input-line_discont">
+					</div>
+				</div>
+
+				<div class=" form__element">
+					<label for="description" class="form__input-title">Описание</label></p>
+					<textarea name="description" id="description" cols="30" rows="10" class="form__input-line"></textarea>
+				</div>
+
+				<div class="form__element">
+					<label for="count" class="form__input-title">Количество</label>
+					<input type="text" name="count" id="count" class="form__input-line" required>
+				</div>
+
+				<div class="form__element">
+					<label for="price" class="form__input-title">Цена</label>
+					<input type="number" name="price" id="price" class="form__input-line" required>
+				</div>
+			</form>
+
+			<button id="form-order" class="form__button">Добавить товар</button>
+
+		</article>
+
+	</main>
+</body>
+
+</html>
